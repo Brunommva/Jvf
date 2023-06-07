@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+
+/* menu */
+
+.menu_h {background-color: rgb(52, 47, 83);}
+
+.logo_menu{
+	width: 50px;
+}
+
+.img_logo{
+	width: 200px;
+	margin-left: 100px;
+	margin-top: 3px;
+	margin-right: 500px;
+}
+
+.menu_h ul{
+display:flex;
+max-width: 1000px;
+list-style: none;
+padding: 0;
+font-size: medium;
+margin-left: 400px;
+
+}
+
+.menu_h ul li {
+	display: inline;
+}
+
+.menu_h ul li a {
+	color: #FFF;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+	transition: background .6s;
+}
+
+.menu_h ul li a:hover {
+	background-color: rgb(10, 241, 222);
+
+}
+
+.menu_h ul li:last-child a {
+	float: right;
+	background-color:rgb(24, 139, 233);
+}
+
+
+/* conteudo pagina*/ 
+
+p {
+	font-size: 4rem;
+	
+}
+
+
+.conteudo{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 0px solid #3ed9e4;
+	padding: 5rem;
+	border-radius: 8px;
+
+}
+
+	
+.carro_home{
+	width: 800px;
+	display: flex;
+}
+
+.img_frota{
+		width: 700px;
+}
+
+.quem_somos{
+	font-size: 30pt;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.quem_somos_h3 {
+	font-size: 20pt;
+	text-align: center;
+	margin-top: 20px;
+}
+.quem_somos_div{
+	background-color: rgb(10, 241, 222);
+	width: 100%;
+}
+
+
+.home_img1{
+	width: 100%;
+}
+
+.home_img2{
+	width: 100%;
+}
+
+
+
+galery {
+    width: 1600px;
+    height: 500 px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    float:inline-start;
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 19.9%;
+}
+
+@keyframes animacao {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+    75% { margin-left: -300%; }
+    95% { margin-left: -300%; }
+    100% { margin-left: -400%; }
+}
+
+.fotos img{
+	width: 100%;
+	height: 450px;
+}

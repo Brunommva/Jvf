@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.menu_h {background-color: rgb(0, 119, 179);}
+
+.menu_h ul{
+display:flex;
+max-width: 1000px;
+list-style: none;
+padding: 0;
+font-size: medium;
+margin-left: 400px;
+}
+
+.menu_h ul li {
+	display: inline;
+}
+
+.menu_h ul li a {
+	color: #FFF;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+	transition: background .4s;
+}
+
+.menu_h ul li a:hover {
+	background-color: rgb(24, 139, 233);
+
+}
+
+.cadastro{
+	background: rgb(179, 230, 255);
+	padding: 3rem;
+
+}
+
+.cadastro_categoria{
+	width: 300px;
+	padding: 1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.cadastro_veiculos{
+	width: 300px;
+	padding: 1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"]{
+
+	color: #FFF;
+	width: 125px;
+	padding: 1.0rem;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	border: 1px solid #CCC;
+	border-radius: 20px;
+	background: #39eaf0;
+	border: 0;
+	border: 1px solid rgb(13, 216, 243);
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+
+
+
+
+p {
+	font-size: 4rem;
+
+}
+.conteudo{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 0px solid #00008B;
+	padding: 5rem;
+	border-radius: 8px;
+
+}
+
+	
+.carro_home{
+	width: 500px;
+}
+
+.img_frota{
+		width: 500px;
+}
+
+.quem_somos{
+	font-size: 30pt;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.quem_somos_h3 {
+	font-size: 20pt;
+	text-align: center;
+	margin-top: 20px;
+}
+.quem_somos_div{
+	background-color: antiquewhite;
+	width: 100%;
+}
+
+/* pagina de consulta */
+
+.consulta_geral{
+	display: flex;
+}
+
+.consulta1{
+	display: inline-block;
+	font-size: 10pt;
+}
+
+.consulta_input{
+	width: 200px;
+	padding: 0.3rem;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-size: 8pt;
+}
+
+/* tabela para retorno */
+
+table{
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width:1200px;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 10pt;
+    font-family: "roboto flex";
+}
+
+table, th, td{
+    border: 0px solid #565050;
+    padding: .5rem;
+}
+
+tr:nth-child(even){
+    background-color: #e4e3e3;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+td a img{
+    width: 15px;
+    appearance: none;
+    background-color: initial;
+    cursor: pointer;
+    padding: initial;
+    border: initial;
+}
+
+input[type="image" i] {
+    width: 15px;
+    appearance: none;
+    background-color: initial;
+    cursor: pointer;
+    padding: initial;
+    border: initial;
+}
+

@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{  							
+
+	margin: 0;					
+	padding: 0;					
+	font-family: Arial, Helvetica, sans-serif, 'open sans', sans-serif;
+	color: #312d2d;				
+}
+
+html{ 							
+
+	font-size: 62.5%;			
+
+}
+
+.form_login{					
+
+	width: 700px;				
+	margin: 7rem auto;
+	
+}
+
+
+h1{
+
+	font-size: 4rem;
+	margin-bottom: 2.5rem;
+	color: #246975;
+}
+
+.agrupamento_login{ 				
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #246975;
+	padding: 5rem;
+	border-radius: 10px;
+	box-shadow: 0px 2px 10px #246975;
+
+
+}
+
+
+
+
+label, input[type="text"], input[type="password"],input[type="submit"]{
+
+	font-size: 1.5rem;
+
+}
+
+input[type="text"], input[type="password"]{
+
+	width: 300px;
+	padding: 1.0rem;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	border: 1px solid #246975;
+	border-radius: 8px;
+
+}
+
+input[type="submit"]{
+
+	color: #FFF;
+	width: 125px;
+	padding: 1.0rem;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	border: 1px solid #CCC;
+	border-radius: 20px;
+	background: #246975;
+	border: 0;
+	border: 1px solid blue;
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+
+
+
+.logo_login{
+	
+	width: 200px;
+
+}
+
+
+
+.barra_topo{
+
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.barra_topo_n1{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+	align-items: center;
+	padding: 1rem;
+
+}
+
+.barra_topo_n1 > img{
+	
+	width: 100px;
+
+}
+
+
+.barra_topo_n2{
+
+	padding: 0.5rem;
+	background: #00008B;
+
+}
+
+.menu_admin{
+
+	list-style:none;
+	float:left;
+	width: 100%;
+
+}
+
+.menu_admin li{
+
+	position: relative;
+	float:left;
+	border-right: 1px solid #FFF;
+	font-size: 1.2rem;
+	width: 10%;
+	text-align: center;
+
+
+}
+
+.menu_admin li a{
+
+	color:#FFF; 
+	text-decoration:none; 
+	padding: 1rem 1rem; 
+	display:block;
+
+}
+
+.menu_admin li a:hover{
+
+	background: #00BFFF;
+	color: #FFF;
+	font-weight: 600;
+
+}
+
+
+.menu_admin li  ul{
+	
+	position:absolute;
+	top:35px;
+	left:0;
+	background: #00008B;
+	display:none;
+	
+}
+
+.menu_admin li:hover ul, .menu li.over ul{
+	
+	display:block;
+
+}
+
+.menu_admin li ul li{
+	
+	border-bottom:1px solid #FFF;
+	display:block;
+	width: 200px;
+	text-align: left;
+}
+
+
+
+.form_curso{
+
+	width: 1000px;
+	margin: 4rem auto;
+
+}
+
+.form_curso > div > h1{
+
+	font-size: 2rem;
+
+}
+
+.form_curso > div > input[type="submit"]{
+
+	width: 150px;
+
+}
+
+
+.estila_tabela{
+
+	width: 1000px;
+	margin: 4rem auto;
+
+}
+
+.estila_tabela > div > h1{
+
+	font-size: 2rem;
+
+}
+
+
+table{
+
+	width: 100%;
+
+}
+
+
+.tabela_cabecalho{
+
+	font-weight: 600;
+	height: 5rem;
+}
+
+td{
+
+	font-size: 1.4rem;
+	border-bottom: 1px solid #069;
+	text-align: center;
+	
+
+	
+}
+
+
+
+.agrupamento_botao_acao{
+	
+	display:flex;
+	flex-direction: colum;
+	justify-content: space-between;	
+	align-items: center;
+}
+
+.botao_acao{
+	
+	width: 35px;
+	cursor:pointer;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+	
+
+}
+
